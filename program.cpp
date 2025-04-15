@@ -151,8 +151,6 @@ void transferMoney() {
     cout << "Transfer successful!\n";
     cout << "Your new balance: $" << accounts[fromAccount].balance << "\n";
 }
-
-// Function to check balance
 void checkBalance() {
     int accountNumber;
     string password;
